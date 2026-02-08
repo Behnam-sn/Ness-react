@@ -71,3 +71,19 @@ export default defineConfig([
   },
 ])
 ```
+
+## TDD with OOP in TypeScript
+
+This project includes a complete setup for Test-Driven Development with Object-Oriented Programming in TypeScript:
+
+- **Testing Framework**: Vitest with JSDOM environment
+- **Test Structure**: Organized in `src/lib/__tests__/` directories
+- **OOP Concepts**: Demonstrated with interfaces, inheritance, encapsulation, and polymorphism
+- **Type Safety**: Full TypeScript support with proper typing
+
+### Available Scripts
+
+- `pnpm test` - Run tests in watch mode
+- `pnpm test:run` - Run all tests once
+- `pnpm test:ui` - Open Vitest UI in browser
+- `pnpm test:coverage` - Generate test coverage report
